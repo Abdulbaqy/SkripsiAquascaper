@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.vendor_ui.Invoice">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Invoice"
+        android:textSize="30sp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <EditText
+        android:id="@+id/details_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Details"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/price_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Total Price"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_invoice_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back_primary_15"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppinsbold"
+        />
+
+</LinearLayout>

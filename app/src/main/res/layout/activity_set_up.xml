@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.customer_ui.SetUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Set up your own aquascape!"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <EditText
+            android:id="@+id/ETSetup_size"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:hint="Aquarium size"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButtonNatural"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Natural Style" />
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/natural"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButtonIwagumi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Iwagumi Style" />
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/iwagumi"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RadioButton
+                    android:id="@+id/radioButtonDutch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dutch Style" />
+                <ImageView
+                    android:layout_width="140sp"
+                    android:layout_height="100sp"
+                    android:src="@drawable/dutch"/>
+            </LinearLayout>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/ETSetup_adress"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:hint="Address"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/ETSetup_city"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:hint="City"
+            android:maxLines="1"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/submitBtnSetup"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_back_primary_15"
+            android:textColor="#FFFFFF"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

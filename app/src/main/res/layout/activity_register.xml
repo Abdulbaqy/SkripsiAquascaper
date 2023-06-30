@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view.Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create a new account"
+        android:fontFamily="@font/poppinslight"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/ET_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Full Name"
+        android:maxLines="1"
+        android:inputType="text"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/ET_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Email"
+        android:maxLines="1"
+        android:inputType="textEmailAddress"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/ET_phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Phone Number"
+        android:maxLines="1"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/ET_password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/round_back_dark_blue5_15"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textSize="16sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <RadioButton
+        android:id="@+id/isCustomerRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Register as customer"
+        android:fontFamily="@font/poppinsmedium"
+        />
+
+    <RadioButton
+        android:id="@+id/isVendorRB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Register as vendor"
+        android:fontFamily="@font/poppinsmedium"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_back_primary_15"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:fontFamily="@font/poppinslight"
+            />
+
+        <Button
+            android:id="@+id/goToLoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Sign in"
+            android:textColor="@color/primary2"
+            android:fontFamily="@font/poppinsbold"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

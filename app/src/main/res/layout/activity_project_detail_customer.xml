@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".view.ProjectDetail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Project Detail"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TVCard_Type_Size_Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Set Up 60cm Dutch Style"
+                android:textSize="22sp"
+                android:fontFamily="@font/poppinsbold"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="RayhanFahlevy"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_details_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Details"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+
+
+            <TextView
+                android:id="@+id/TVCard_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="ikan a, ikan b, ikan c"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Jl. Limus Raya no 24"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_price_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Total"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Rp.4.000.000"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_vendor_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Aquascaper"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_vendor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Abdul"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_payment_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Payment Gopay"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+            <LinearLayout
+                android:id="@+id/TVCard_payment_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="Aquascaper"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="08123123123"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/poppinsmedium"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="10dp"
+                android:text="Project Status"
+                android:textSize="16sp"
+                android:fontFamily="@font/poppinslight"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="Mencari Vendor"
+                android:textSize="18sp"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+            <TextView
+                android:id="@+id/TVCard_image_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text="Payment"
+                android:textSize="22sp"
+                android:fontFamily="@font/poppinsmedium"
+                android:visibility="gone"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/Image_Bukti_Transfer"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitCenter"
+                android:visibility="gone"
+                tools:src="@drawable/round_account_circle_24"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTN_Payment"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/round_back_primary_15"
+            android:text="Confirm Payment"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTN_Project_Done"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/round_back_primary_15"
+            android:text="Project Done"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

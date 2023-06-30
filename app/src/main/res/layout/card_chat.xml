@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card_Target"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        app:cardElevation="0dp"
+        tools:visibility="visible"
+        app:cardBackgroundColor="@android:color/transparent"
+        >
+
+            <TextView
+                android:id="@+id/TVCard_message_target"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:padding="12dp"
+                android:background="@drawable/custom_cardview3"
+                tools:text="Sample Text"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Card_User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        app:cardElevation="0dp"
+        tools:visibility="visible"
+        app:cardBackgroundColor="@android:color/transparent"
+        >
+
+
+
+            <TextView
+                android:id="@+id/TVCard_message_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:padding="12dp"
+                android:background="@drawable/custom_cardview2"
+                android:textColor="@color/white"
+                tools:text="Sample Text"
+                android:fontFamily="@font/poppinsmedium"
+                />
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

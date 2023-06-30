@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.customer_ui.CustomerPaymentConfirmation">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Confirm payment"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppinsbold"
+            />
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/baseline_image_24"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Upload your payment here"
+            android:textSize="20sp"
+            android:textStyle="normal"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/BTN_Submit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:text="Submit"
+            android:fontFamily="@font/poppinsbold"
+            android:textAllCaps="false"
+            android:background="@drawable/round_back_primary_15"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

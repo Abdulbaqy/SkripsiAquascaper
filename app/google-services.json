@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "180929171087",
+    "project_id": "multiuserrealtimefragment",
+    "storage_bucket": "multiuserrealtimefragment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:180929171087:android:ff2499834dbb766e702afa",
+        "android_client_info": {
+          "package_name": "com.example.multiuserrealtimefragment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ-La5xbXczs46ROCu1k8ri3ojtRlQp3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
